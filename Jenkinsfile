@@ -41,7 +41,7 @@ pipeline {
 			steps {
 				// "docker build -t in28min/currency-exchange-devops:$env.BUILD_TAG"
 				script {
-					dockerImage = docker.build("nagarjun0523/reactjs:0.0.2.RELEASE")
+					dockerImage = docker.build("nagarjun0523/reactjs:0.0.3.RELEASE")
 				}
 			}
 		}
